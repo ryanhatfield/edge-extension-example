@@ -1,5 +1,5 @@
 {
-  "name": "NASA picture of the day viewer",
+  "name": "Michael Print Button",
   "version": "0.0.0.1",
   "manifest_version": 3,
   "description": "An extension to display the NASA picture of the day.",
@@ -9,7 +9,14 @@
     "48": "icons/mikon.png",
     "128": "icons/mikon.png"
   },
+  "permissions": [
+    "printerProvider"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
-    "default_popup": "popup/popup.html"
+    "default_popup": "popup/printers.html",
+    "default_icon": "icons/mikon.png"
   }
 }
