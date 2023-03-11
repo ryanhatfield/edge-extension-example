@@ -1,0 +1,15 @@
+{
+  "name": "NASA picture of the day viewer",
+  "version": "0.0.0.1",
+  "manifest_version": 3,
+  "description": "An extension to display the NASA picture of the day.",
+  "icons": {
+    "16": "icons/mikon.png",
+    "32": "icons/mikon.png",
+    "48": "icons/mikon.png",
+    "128": "icons/mikon.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  }
+}
