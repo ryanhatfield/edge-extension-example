@@ -1,0 +1,26 @@
+{
+  "name": "edge-extension-example",
+  "version": "1.0.0",
+  "description": "Michael Printer",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"iplement me\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanhatfield/edge-extension-example.git"
+  },
+  "keywords": [
+    "edge",
+    "extension"
+  ],
+  "author": "Ryan Hatfield",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanhatfield/edge-extension-example/issues"
+  },
+  "homepage": "https://github.com/ryanhatfield/edge-extension-example#readme",
+  "devDependencies": {
+    "ftp-client": "^0.2.2"
+  }
+}

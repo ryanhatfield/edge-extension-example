@@ -4,5 +4,9 @@
       "fileMatch": ["/manifest.json"],
       "url": "https://json.schemastore.org/chrome-manifest"
     }
-  ]
+  ],
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
