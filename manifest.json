@@ -18,5 +18,17 @@
   },
   "action": {
     "default_popup": "popup.html"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "/cdd.js",
+        "/node_modules/*"
+      ]
+    }
+  ],
+  "minimum_chrome_version": "92"
 }
